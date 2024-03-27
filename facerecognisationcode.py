@@ -4,19 +4,19 @@ import numpy as np
 import csv
 from datetime import datetime
 
-AbdulKalam_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Face_recognization\photos\AbdulKalam.jpeg")
+AbdulKalam_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Attendance by Face_recognization\photos\AbdulKalam.jpeg")
 AbdulKalam_encoding = face_recognition.face_encodings(AbdulKalam_image)[0]
 
-NarendraModi_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Face_recognization\photos\NarendraModi.jpeg")
+NarendraModi_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Attendance by Face_recognization\photos\NarendraModi.jpeg")
 NarendraModi_encoding = face_recognition.face_encodings(NarendraModi_image)[0]
 
-ViratKoli_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Face_recognization\photos\ViratKoli.png")
+ViratKoli_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Attendance by Face_recognization\photos\ViratKoli.png")
 ViratKoli_encoding = face_recognition.face_encodings(ViratKoli_image)[0]
 
-KiaraAdvani_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Face_recognization\photos\KiaraAdvani.jpeg")
+KiaraAdvani_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Attendance by Face_recognization\photos\KiaraAdvani.jpeg")
 KiaraAdvani_encoding = face_recognition.face_encodings(KiaraAdvani_image)[0]
 
-DishaPatani_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Face_recognization\photos\DishaPatani.jpg")
+DishaPatani_image = face_recognition.load_image_file(r"C:\Users\Tanushree\Desktop\Attendance by Face_recognization\photos\DishaPatani.jpg")
 DishaPatani_encoding = face_recognition.face_encodings(DishaPatani_image)[0]
 
 known_face_encoding = [
